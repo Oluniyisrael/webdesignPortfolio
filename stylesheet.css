@@ -135,3 +135,20 @@ color: white;
     background-color: orangered;
     color: black;
 }
+.page{
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pageImg{
+    width: 400px;
+    height: 400px;
+}
+.pageHeader{
+    font-size: 25px;
+    font-family: tahoma;
+}
