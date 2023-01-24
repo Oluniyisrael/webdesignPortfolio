@@ -79,6 +79,7 @@ text-decoration: none;
     border: 1px solid black;
     align-items: center;
     justify-content: center;
+    gap: 30px;
     /* height: 10px; */
 }
 .card{
