@@ -12,8 +12,8 @@
     <section class="introContainer">
         <nav id="Nav-bar">
             <ul>
-            <li><a href="#landingPage">Home</a></li>
-            <li><a href="#works">Works</a></li>
+            <li onclick="scrollToHome()">Home</li>
+            <li onclick="scrollToWorks()">Works</li>
             </ul>
         </nav>
         <div class="landingPage" id="landingPage">
@@ -33,7 +33,10 @@
             <div class="card">
                 <img src="./images/portfolio.png" alt="...">
                 <p>My Portfolio</p>
+               <div class="buttonsCont">
                 <button class="cardButton" id="portfolioBut">Visit</button>
+                <button class="cardButton" id="gitLink">Github</button>
+               </div> 
             </div>
             <div class="card">
                 <img src="./images/portfolio.png" alt="...">

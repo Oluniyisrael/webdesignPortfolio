@@ -2,6 +2,9 @@ html,body{
     margin: 0;
     scroll-behavior: smooth;
 }
+/* body::-webkit-slider-runnable-track{
+    display: none;
+} */
 nav {
 display: block;
 position:fixed;
@@ -17,16 +20,14 @@ margin: 20px;
 font-size:17px;
 color: rgb(147, 155, 161);
 }
-#Nav-bar a:link {
+#Nav-bar li{
 color: rgb(170, 175, 180);
-text-decoration: none;
+cursor: pointer;
 }
-#Nav-bar a:visited{
-    color: rgb(170, 175, 180);
-}
-#Nav-bar a:hover {
+
+#Nav-bar li:hover {
 color: white;
-text-decoration: none;
+
 }
 
 .introContainer{
@@ -96,10 +97,15 @@ text-decoration: none;
 .card img{
     width: 250px;
 }
+.buttonsCont{
+    display: flex;
+    gap: 5px;
+}
+
 .cardButton{
     padding: 10px;
-    width: 200px;
-    border-radius: 20px;
+    width: 50px;
+    border-radius: 10px;
     border: none;
     font-family:tahoma;
     font-size: 17px;
@@ -112,4 +118,14 @@ text-decoration: none;
     transform: scale(1.01);
     color: black;
     background-color: yellow;
+}
+#gitLink{
+    width: max-content;
+    transition: 400ms;
+    background-color:black;
+    color: white;
+}
+#gitLink:hover{
+    background-color: orangered;
+    color: black;
 }
