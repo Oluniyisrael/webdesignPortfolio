@@ -77,7 +77,7 @@ color: white;
 .cardsContiner{
     width: 100%;
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     align-items: center;
     justify-content: center;
     gap: 30px;
@@ -96,6 +96,12 @@ color: white;
 }
 .card img{
     width: 250px;
+}
+.cardHeading{
+    color: black;
+    font-size: 20px;
+    font-family: tahoma;
+    
 }
 .buttonsCont{
     display: flex;
