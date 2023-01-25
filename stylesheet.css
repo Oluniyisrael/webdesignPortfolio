@@ -23,6 +23,7 @@ color: rgb(147, 155, 161);
 #Nav-bar li{
 color: rgb(170, 175, 180);
 cursor: pointer;
+transition: 400ms ease;
 }
 
 #Nav-bar li:hover {
