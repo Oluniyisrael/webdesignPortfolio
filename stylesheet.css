@@ -138,6 +138,16 @@ color: white;
     background-color: orangered;
     color: black;
 }
+#gitLinkCur{
+    width: max-content;
+    transition: 400ms;
+    background-color:black;
+    color: white;
+}
+#gitLinkCur:hover{
+    background-color: orangered;
+    color: black;
+}
 .page{
     height: 100vh;
     background-color: black;
